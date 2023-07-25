@@ -1,0 +1,61 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+struct Person {
+
+ char name[30];
+
+ char surname[30];
+
+ char email[30];
+
+ char phone[30];
+
+
+
+ struct Person *next;
+
+};
+
+
+
+struct Person *create_node(char *name, char *surname, char *email, char *phone);
+
+struct Person *load_node(char *address_line);
+
+int load_list(char *filepath, struct Person **list);
+
+void print_node(struct Person *node);
+
+void print_list(struct Person *list);
+
+int add_to_list(struct Person **list, struct Person *new_address);
+
+int add_to_list_at(struct Person **list, struct Person *new_address, int pos);
+
+int delete_at(struct Person **list, int pos);
+
+void delete_list(struct Person **list);
+
+struct Person *find_at(struct Person *list, int pos);
+
+struct Person *find_by_name(struct Person *list, char *name);
+
+struct Person *find_by_surname(struct Person *list, char *surname);
+
+struct Person *find_by_email(struct Person *list, char *email);
+
+struct Person *find_by_phone(struct Person *list, char *phone);

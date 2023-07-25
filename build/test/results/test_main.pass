@@ -1,0 +1,23 @@
+---
+:source:
+  :path: test
+  :file: test_main.c
+:successes:
+- :test: test_AppMain_should_return_zero
+  :line: 11
+  :message: ''
+  :unity_test_time: 0
+- :test: test_AppMain_should_return_one_if_book_uninitialized
+  :line: 29
+  :message: ''
+  :unity_test_time: 0
+:failures: []
+:ignores: []
+:counts:
+  :total: 2
+  :passed: 2
+  :failed: 0
+  :ignored: 0
+:stdout:
+- Failed to initialize an address book
+:time: 0.04088140900057624

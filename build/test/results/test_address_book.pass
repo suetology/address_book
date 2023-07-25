@@ -1,0 +1,88 @@
+---
+:source:
+  :path: test
+  :file: test_address_book.c
+:successes:
+- :test: test_init_book
+  :line: 14
+  :message: ''
+  :unity_test_time: 0
+- :test: test_get_menu_input
+  :line: 25
+  :message: ''
+  :unity_test_time: 0
+- :test: test_find_address_by_name
+  :line: 44
+  :message: ''
+  :unity_test_time: 0
+- :test: test_find_address_by_surname
+  :line: 65
+  :message: ''
+  :unity_test_time: 0
+- :test: test_find_address_by_email
+  :line: 86
+  :message: ''
+  :unity_test_time: 0
+- :test: test_find_address_by_phone
+  :line: 107
+  :message: ''
+  :unity_test_time: 0
+- :test: test_add_address_user_types_P
+  :line: 111
+  :message: ''
+  :unity_test_time: 0
+- :test: test_add_address_user_does_not_type_P
+  :line: 150
+  :message: ''
+  :unity_test_time: 0
+- :test: test_enter_address_with_valid_input
+  :line: 170
+  :message: ''
+  :unity_test_time: 0
+- :test: test_enter_address_with_wrong_input
+  :line: 196
+  :message: ''
+  :unity_test_time: 0
+- :test: test_delete_address
+  :line: 216
+  :message: ''
+  :unity_test_time: 0
+- :test: test_program_should_close_user_types_C
+  :line: 239
+  :message: ''
+  :unity_test_time: 0
+- :test: test_program_should_close_user_does_not_type_C
+  :line: 260
+  :message: ''
+  :unity_test_time: 0
+:failures: []
+:ignores: []
+:counts:
+  :total: 13
+  :passed: 13
+  :failed: 0
+  :ignored: 0
+:stdout:
+- Something went wrong...
+- Something went wrong...
+- 'Enter a seach name:'
+- There are no addresses with such name
+- 'Enter a seach surname:'
+- There are no addresses with such surname
+- 'Enter a seach email:'
+- There are no addresses with such email
+- 'Enter a seach phone number:'
+- There are no addresses with such phone number
+- Enter "p" or "P" to add address to a specific position. Otherwise it will be added
+  to the end of the book
+- 'Enter the index of a new address:'
+- 'Enter name: Enter surname: Enter email: Enter phone number: '
+- Enter "p" or "P" to add address to a specific position. Otherwise it will be added
+  to the end of the book
+- 'Enter name: Enter surname: Enter email: Enter phone number: '
+- 'Enter name: Enter surname: Enter email: Enter phone number: '
+- 'Enter name: Enter surname: Enter email: Enter phone number: '
+- 'Enter the index of an address to delete:'
+- 'Enter "c" or "C" to continue work:'
+- 'Enter "c" or "C" to continue work:'
+:time: 0.04428429600011441
